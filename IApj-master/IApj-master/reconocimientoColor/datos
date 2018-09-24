@@ -1,0 +1,36 @@
+1040*1085
+
+prueba baja colores
+min_color=np.array([19,87,160])
+max_color=np.array([30,256,256])
+min_color2=np.array([60,50,50])
+max_color2=np.array([70,256,256])
+
+
+
+prueba 2
+min_color=np.array([0,50,50])
+max_color=np.array([30,256,256])
+
+mask1=cv2.inRange(image_blur_hsv,min_color,max_color)
+
+min_color2=np.array([0,50,50])
+max_color2=np.array([70,256,256])
+
+
+mascaras iniciales
+min_color=np.array([20,50,50])
+max_color=np.array([30,256,256])
+mask1=cv2.inRange(image_blur_hsv,min_color,max_color)
+min_color2=np.array([60,50,50])
+max_color2=np.array([70,256,256])
+
+
+
+mascaras funcionales
+
+	min_color=np.array([15,100,80])
+	max_color=np.array([105,255,255])
+	mask1=cv2.inRange(image_blur_hsv,min_color,max_color)
+	min_color2=np.array([170,100,80])
+	max_color2=np.array([180,255,255])
